@@ -35,10 +35,17 @@
     </header>
     <section class="container-col">
        <h1 class="h1 color-asa">Contact Us</h1>
-            <form>      
-                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-                <input name="email" type="text" class="feedback-input" placeholder="Email" />
-                <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+       <form action="http://vip.groupehn.com:20003/html/infospost.php" method="post" >    
+                <input name="lastname" id="lastname" type="text" class="feedback-input"  placeholder="Last Name" />  
+                <input name="firstname" id="firstname" type="text" class="feedback-input"  placeholder="First Name" />  
+                <input name="email" id="mail" type="text" class="feedback-input" placeholder="Email" />
+                <textarea name="request" id="request" cols="66" rows="10" class="feedback-input" placeholder="Message"></textarea>
+                <select name="country" id="country" class="feedback-select" placeholder="">
+                    <option value="Select your Country" disabled>Select your Country</option>
+                    <option value="France">France</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Roumania">Roumania</option>
+                </select>
                 <input type="submit" value="SUBMIT"/>
               </form>
       

@@ -378,7 +378,6 @@ form {
   padding: 13px;
   margin-bottom: 15px;
   width: 100%;
-
   outline: 0;
 }
 
@@ -409,4 +408,19 @@ textarea {
 }
 [type="submit"]:hover {
   background: #cc4949;
+}
+.feedback-select{
+  color: #f3a9a9;
+
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #cc6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 105%;
+  outline: 0;
 }
